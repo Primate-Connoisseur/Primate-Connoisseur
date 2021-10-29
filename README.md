@@ -2,7 +2,7 @@
 - 👀 I’m interested in learning java to help code on my ftc robotics team
 - 🌱 I’m currently learning java 
 - 💞️ I’m looking to collaborate on anything to help further my java knoledge
-- 📫 How to reach me on discord @Monke#7523
+- 📫 How to reach me discord Monke#7523
 
 <!---
 Primate-Connoisseur/Primate-Connoisseur is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
