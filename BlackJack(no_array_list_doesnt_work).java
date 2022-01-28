@@ -115,7 +115,7 @@ public class Main
 		        System.out.print (" |" + snums[a] + "   |");
 		        
 		    } 
-		    System.out.print ("       |" + dsnums[1] + "   | |    |");
+		    System.out.print ("       |" + dsnums[0] + "   | |    |");
 		    System.out.println();
 		    for(int z = 0; z < numcards2; z++){
                 System.out.print (" |    |"); 
@@ -126,14 +126,14 @@ public class Main
                
                     System.out.print (" |   " + snums[b] + "|"); 
             }  
-		        System.out.print ("       |   " + dsnums[1] + "| |    |");
+		        System.out.print ("       |   " + dsnums[0] + "| |    |");
             System.out.println();
         for(int y = 0; y < numcards2; y++){
             sum += nums[y];    
         }    
         
 		 System.out.println();
-		 System.out.println("Your total is " + sum +"   |  Dealer First card is " + dsnums[1]);
+		 System.out.println("Your total is " + sum +"   |  Dealer First card is " + dsnums[0]);
 
 		int dead = 0; //garbage variable
 		
@@ -181,7 +181,7 @@ public class Main
 		    for(int r = 0; r < numcards3; r++){
 		        System.out.print (" |" + snums[r] + "   |" );
 		      }
-	        System.out.print ("       |" + dsnums[1] + "   | |    |");
+	        System.out.print ("       |" + dsnums[0] + "   | |    |");
 	        System.out.println();
 	        for(int q = 0; q < numcards3; q++){
                 System.out.print (" |    |"); 
@@ -192,14 +192,14 @@ public class Main
                
                     System.out.print (" |   " + snums[g] + "|"); 
             }  
-		    System.out.print ("       |   " + dsnums[1] + "| |    |");    
+		    System.out.print ("       |   " + dsnums[0] + "| |    |");    
 		    
 		    
             sum = nums[numhit - 1] + sum;    
            
             System.out.println();
             System.out.println();
-		    System.out.println("Your total is " + sum +"   |  Dealer First card is " + dsnums[1]);
+		    System.out.println("Your total is " + sum +"   |  Dealer First card is " + dsnums[0]);
 		
 		     
 		}
@@ -209,85 +209,63 @@ public class Main
 		    for(int r = 0; r < numcards3; r++){
 		        System.out.print (" |" + snums[r] + "   |" );
 		      }
-	        
-	      
-	        System.out.print ("       |" + dsnums[1] + "   |");
-	        System.out.print (" |" + dsnums[2] + "   |");
+		      
+		       System.out.print ("      ");
+		      
+		      for(int r1 = 0; r1 < numcards3; r1++){
+		        System.out.print (" |" + dsnums[r1] + "   |" );
+		      }
 	        
 	        System.out.println();
+	        
 	        for(int q = 0; q < numcards3; q++){
                 System.out.print (" |    |"); 
 		    }
-		     System.out.print ("       |    | |    |");
+		   
+		    System.out.print ("      ");
+		   
+		    for(int q1 = 0; q1 < numcards3; q1++){
+                System.out.print (" |    |"); 
+		    }
+		    
+
 		     System.out.println();
 	        for(int g = 0; g < numcards3; g++){
                
                     System.out.print (" |   " + snums[g] + "|"); 
             }  
-		    System.out.print ("       |   " + dsnums[1] + "| |   " + dsnums[2] + "|");
-		    
-		    
+            
+            System.out.print ("      ");
+            
+             for(int g1 = 0; g1 < numcards3; g1++){
                
-           
-            System.out.println();
-            System.out.println();
-            dtotal = dnums[1] + dnums[2];
-		    System.out.println("Your total is " + sum + "   |  Dealer total is " + dtotal);
-
-	
-		        for(int k1 = 1; dtotal <= 17; k1++){
-		           
-		           
-		            System.out.println("Your cards are       Dealers Cards are ");
-		    for(int a = 0; a < numcards2; a++){
-		        System.out.print (" |" + snums[a] + "   |");
-		        
-		    } 
-		        System.out.print ("       |" + dsnums[1] + "   | |    |");
-		        System.out.println();
-		    for(int z = 0; z < numcards2; z++){
-                System.out.print (" |    |"); 
-		    }
-		        System.out.print ("       |    | | {} |");
-		        System.out.println();
-            for(int b = 0; b < numcards2; b++){
-               
-                    System.out.print (" |   " + snums[b] + "|"); 
+                    System.out.print (" |   " + dsnums[g1] + "|"); 
             }  
-		        System.out.print ("       |   " + dsnums[1] + "| |    |");
-                System.out.println();
-            for(int y = 0; y < numcards2; y++){
-            sum += nums[y];    
-            }    
-        
-		 System.out.println();
-		 System.out.println("Your total is " + sum +"   |  Dealer First card is " + dsnums[1]);
-
-		            
+		    
+		    }
 		        
-		    break;
 		    }
 		       
               
-              break;
+
 		
-		}
 	
 	
 	
-		}
-	
-		}
+		
+        }
+		
 		else 
 		{
 		    System.out.println("Fuck Yaself Bing Bong (:");
 		    return;
 		}
 		
-		
+	}
+}
 	
           
-      }
+      
       
       
 	
@@ -334,8 +312,7 @@ public class Main
 	|    |
 
     */
-	}
-
+	
 
 
 
