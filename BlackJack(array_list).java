@@ -112,6 +112,7 @@ public class Main
 		String cardslook = "               ";
 		System.out.println("Your cards are       Dealers Cards are ");
 		    for(int a = 0; a < numcards2; a++){
+		        snums.add()
 		        System.out.print (" |" + snums[a] + "   |");
 		        
 		    } 
@@ -372,6 +373,15 @@ public class Main
         
     }
 	}
+
+
+
+
+
+
+
+
+
 
 
 
